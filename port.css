@@ -11,10 +11,102 @@ html {
         padding-left: 20%;
         padding-right: 20%
        } 
-      
-      
     }
+    @media screen and (max-width: 1000px) {
+      .graphic, .production1, .mot1 {
+        display: block !important;
+        justify-content: center;
+       } 
+    }
+    @media screen and (max-width: 1000px) {
+      .work1, .work2, .work3, .work4, .work5, .work6, .work7 {
+        width: 92% !important;
+        height: 100% !important;
+        margin-left: 4% !important;
+        margin-right: 4% !important;
+        
+       } 
+    }
+    @media screen and (max-width: 1000px) {
+      .work1 img , .work2 img, .work3 img iframe , .work4 .img, .work5 img, .work6 img, .work7 img , .img, .proimg {
+        width: 96% !important;
+        height: 100% !important;
+        margin-left: 2% !important;
+        margin-right: 2% !important;
   
+       } 
+    }
+    @media screen and (max-width: 1000px) {
+     .name, .Mywork, .Contact  {
+       font-size: 30px !important;
+       } 
+    }
+    @media screen and (max-width: 1000px) {
+      hr {
+        margin-left: 4%;
+        margin-right: 4%;
+        } 
+     }
+     @media screen and (max-width: 1000px) {
+      .webde {
+       
+        font-size: 15px !important;
+        } 
+     }
+     
+     @media screen and (max-width: 1000px) {
+      .proto1 {
+        margin-left: 4% !important;
+        margin-right: 4% !important;
+        min-width: 100px;
+        padding: 0 25px;
+        } 
+     }
+     @media screen and (max-width: 1000px) {
+      .fontpic {
+        right: 70% !important;
+   
+        } 
+     }
+     @media screen and (max-width: 1000px) {
+     .thirdpage img {
+     width: auto;
+     max-width: 250px;
+        } 
+     }
+     @media screen and (max-width: 1000px) {
+     .bottom-right{
+      bottom: 190px !important;
+      left: 10px;
+      font-size: 20px !important;
+      background-color: #ffffff;
+    }
+     }
+     @media screen and (max-width: 1000px) {
+      .top-right{
+        top: 200px !important;
+        right: 0px !important;
+        left: 30px !important;
+       background-color: #ffffff !important;
+       font-size: 12px !important;
+       border: #ffffff !important;
+       border-width: 3px !important;
+       height: 116px;
+     }
+      }
+      @media screen and (max-width: 1000px) {
+        .top-left{
+         display: none !important ;
+          
+       }
+        }
+        @media screen and (max-width: 1000px) {
+         .menuwork{
+           display: none !important ;
+            
+         }
+          }
+    
   .toppage{
     z-index: 1;
   }
@@ -75,7 +167,6 @@ html {
   }
   .name {
     font-family: 'Syncopate', sans-serif;
-    font-weight: lighter;
     font-size: 65px;
     font-weight: bold;
     margin: auto;
@@ -113,7 +204,7 @@ html {
 .fontpic{
   position: absolute;
   top: -33%;
-  right: 54%;
+  right: 55%;
   font-family: 'Lexend Zetta', sans-serif;
   font-size: 160px;
 }
@@ -134,7 +225,6 @@ html {
 
   .Mywork {
     font-family: 'Syncopate', sans-serif;
-    font-weight: lighter;
     font-size: 65px;
     font-weight: bold;
     color: black;
@@ -153,8 +243,8 @@ html {
 
   }
 .webde {
-  margin-left: 55px;
-  margin-right: 55px;
+  margin-left: 5%;
+  margin-right: 5%;
   font-family: 'Lexend Zetta', sans-serif;
   font-size: 30px;
  
@@ -164,8 +254,8 @@ html {
   cursor: default;
 }
   .headweb {
-    margin-left: 55px;
-    margin-right: 55px;
+    margin-left: 4%;
+    margin-right: 4%;
    
   
   }
@@ -181,9 +271,14 @@ html {
     margin: 2rem;
     overflow: hidden;
     display: inline-block;
+    font-family: -apple-system;
     margin-bottom: 0%;
     
    
+  }
+
+  .img {
+    position: relative;
   }
   .scrollimg1 {
     display:none;
@@ -196,8 +291,7 @@ html {
  .button1 {
   position: absolute;
   top: 50%;
-  transform: translateY(-300%);
-  width: 400px;
+  width: 100%;
   height: 42px;
   display: flex; 
   justify-content: space-between;
@@ -235,8 +329,13 @@ html {
    color: rgb(236, 28, 115);
  }
 
+ .link
+ {
+   display: flex;
+   justify-content: center;
+ }
+
  .proto1 {
-  background-color:none;
   border: none;
   border-radius: 30px;
   color: rgb(236, 28, 115);
@@ -248,10 +347,8 @@ html {
   line-height: 40px;
   text-align: center;
   text-decoration: none;
-  user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  
   margin-left: 120px;
   margin-right: 120px;
 }
@@ -269,13 +366,6 @@ html {
   transform: translate(2px, 2px);
   color: rgb(236, 28, 115);
 }
-
-@media (min-width: 768px) {
-  .proto1{
-      min-width: 100px;
-      padding: 0 25px;
-    }
-  }
 
 
  .mungman {
@@ -295,16 +385,7 @@ html {
    font-size: 20px;
  }
 
-/**work2**/
-  .work2 {
-    width: 400px;
-    height: 540px;
-    margin: 2rem;
-    overflow: hidden;
-    display: inline-block;
-    font-family: -apple-system;
-    margin-bottom: 0%;
-  }
+
   .scrollimg2 {
     display:none;
     width: 400px;
@@ -329,17 +410,7 @@ html {
     font-family: "Poiret One", cursive;
     font-size: 20px;
   }
-  /**work3**/
-  .work3 {
-    width: 400px;
-    height: 540px;
-    margin: 2rem;
-    overflow: hidden;
-    display: inline-block;
-    font-family: -apple-system;
-    margin-bottom: 0%;
-  
-  }
+ 
   .scrollimg3 {
     display:none;
     width: 400px;
@@ -408,6 +479,7 @@ hr{
   top: 150px;
   right: 100px;
   font-family: 'Lexend Zetta', sans-serif;
+  
 }
 
 .social{
@@ -433,7 +505,7 @@ hr{
   cursor: default;
 }
 
-.work4 {
+.work2 {
   width: 400px;
   height: 480px;
   margin: 2rem;
@@ -450,15 +522,7 @@ hr{
  
 }
 
-.work5 {
-  width: 400px;
-  height: 480px;
-  margin: 2rem;
-  overflow: hidden;
-  display: inline-block;
-  font-family: -apple-system;
-  margin-bottom: 0%;
-}
+
   .scrollimg5 {
   display:none;
   width: 400px;
@@ -476,15 +540,7 @@ hr{
 
 }
 
-.work6 {
-  width: 400px;
-  height: 480px;
-  margin: 2rem;
-  overflow: hidden;
-  display: inline-block;
-  font-family: -apple-system;
-  margin-bottom: 0;
-}
+
   .scrollimg6 {
   display:none;
   width: 400px;
@@ -506,15 +562,7 @@ hr{
   justify-content: center;
   position: relative;
 }
-.work7 {
-  width: 400px;
-  height: 480px;
-  margin: 2rem;
-  overflow: hidden;
-  display: inline-block;
-  font-family: -apple-system;
-  margin-bottom: 0%;
-}
+
   .scrollimg7 {
   display:none;
   width: 400px;
@@ -523,15 +571,6 @@ hr{
  
 }
 
-.work8 {
-  width: 400px;
-  height: 480px;
-  margin: 2rem;
-  overflow: hidden;
-  display: inline-block;
-  font-family: -apple-system;
-  margin-bottom: 0%;
-}
   .scrollimg8 {
   display:none;
   width: 400px;
@@ -543,11 +582,11 @@ hr{
 .button2 {
   position: absolute;
   top: 50%;
-  transform: translateY(-230%);
-width: 400px;
-height: 42px;
+  width: 100%;
+  height: 42px;
   display: flex; 
   justify-content: space-between;
+  text-align: center;
 }
 .buttonleft2 {
 margin-left: 10px; 
@@ -581,7 +620,7 @@ height: 38px;
 }
 
 
-.work9 {
+.work3 {
   width: 400px;
   height: 390px;
   margin: 2rem;
@@ -632,9 +671,10 @@ height: 38px;
   width: 400px;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  position: relative;
  
 }
-.work10 {
+.work4 {
   width: 400px;
   height: 490px;
   margin: 2rem;
@@ -644,27 +684,24 @@ height: 38px;
   margin-bottom: 0%;
   
 }
-.work10 p {
+.work4 p {
   line-height: 155%;
 }
 .scrollimg10 {
-  width: 400px;
- margin-top: 30px;
-
-}
-
-.img10{
-  width: 400px;
-  height: 300px;
-  background-color: black;
+  width: auto;
+  max-width: 400px;
+  height: auto;
+  min-height: 300px;
+  position: relative;
+  overflow: hidden;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  position:relative ;
-  overflow: hidden;
-
+  background-color: black;
 }
 
-.work11 {
+
+
+.work5 {
   width: 400px;
   height: 490px;
   margin: 2rem;
@@ -673,7 +710,7 @@ height: 38px;
   font-family: -apple-system;
   margin-bottom: 0%;
 }
-.work12 {
+.work6 {
   width: 400px;
   height: 440px;
   margin: 2rem;
@@ -714,14 +751,16 @@ height: 38px;
 }
 
 .scrollimg11 {
-  display:none;
-  width: 400px;
+  width: auto;
+  max-width: 400px;
+
+  position: relative;
+  overflow: hidden;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  position:relative ;
- 
+  background-color: black;
 }
-.work13 {
+.work7 {
   width: 400px;
   height: 440px;
   margin: 2rem;
@@ -731,21 +770,22 @@ height: 38px;
   margin-bottom: 0%;
 }
 
-.work13 p {
+.work7 p {
   line-height: 120%;
 }
 
 .button3 {
   position: absolute;
-  top: 50%;
-  transform: translateY(-150%);
-width: 400px;
-height: 42px;
+  top: 45%;
+  width: 100%;
+  height: 42px;
   display: flex; 
   justify-content: space-between;
+  text-align: center;
 }
 .mot1 {
   display: flex;
   justify-content: center;
   position: relative;
 }
+
