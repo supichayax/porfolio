@@ -817,6 +817,17 @@ height: 38px;
   border-bottom-right-radius: 20px;
   background-color: black;
 }
+.scrollimg15 {
+  width: auto;
+  max-width: 400px;
+ 
+  position: relative;
+  object-fit: contain;
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: black;
+}
 .work7 p {
   line-height: 120%;
 }
